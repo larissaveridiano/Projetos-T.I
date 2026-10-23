@@ -1,0 +1,45 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+.Container{
+display: flex;
+height: 1000px;
+width: 1000px;
+background-color: rgb(255, 240, 101);
+}
+
+.box1{
+   
+    height: 300px;
+    width: 300px;
+    background-color: rgb(137, 188, 236);
+    border-style: dotted;
+ margin: 10px;
+    padding: 3px;
+border-radius: 15px;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(118, 231, 127);
+    border-style: dotted;
+   margin: 10px;
+   padding: 3px;
+   border-radius: 15px;
+    
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(247, 144, 247);
+    border-style:dotted;
+    border-color: rgb(0, 0, 0);
+    margin: 10px;
+   padding: 3px;
+   border-radius: 15px;
+
+}

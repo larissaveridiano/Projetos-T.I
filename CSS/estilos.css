@@ -1,0 +1,22 @@
+h1{
+   text-align: center;
+   color: rgb(253, 3, 3);
+
+    
+}
+
+body{
+background-color: rgba(255, 0, 0, 0.178);
+background-image:url(ghost.png); 
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-x: 30cap;
+background-position-y: 30cap ;
+}
+
+p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px ;
+text-align: center;
+
+}

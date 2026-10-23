@@ -1,0 +1,36 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+
+.box1{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(194, 248, 255);
+   border-style: dashed;
+   border-color: rgb(255, 0, 0);
+
+}
+
+.box2{
+    height: 300px;
+width: 200px;
+background-color: rgb(243, 241, 130);
+border-style:dotted;
+border-color: rgb(140, 0, 255);
+}
+
+.box3{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(225, 0, 255);
+    border-style:outset;
+}
+
+body{
+background-image: linear-gradient(to top, rgb(68, 0, 255), rgb(0, 195, 255),rgb(0, 255, 242));
+
+}
