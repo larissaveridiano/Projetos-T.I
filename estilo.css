@@ -1,0 +1,41 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+:root {
+ --cor-principal: #30609e;   /* lilás: botões e links */
+  --cor-fundo: #f6f8fc;       /* fundo quase branco */
+  --cor-topo: #30528d;        /* azul-marinho no menu */
+  --cor-texto: #1d2b44;       /* texto escuro */
+  --cor-texto-topo: #ffffff;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+/* Parte superior (menu) */
+.navbar {
+  background-color: var(--cor-topo) ;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--cor-texto-topo) ;
+}
+.navbar .nav-link:hover {
+  opacity: .75;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: var(--cor-principal);
+  border-color: var(--cor-principal);
+}
+
+/* Links */
+a {
+  color: var(--cor-principal);
+}
